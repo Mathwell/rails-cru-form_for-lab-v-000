@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+<<<<<<< HEAD
   get 'songs/index'
 
   get 'songs/new'
@@ -30,6 +31,16 @@ Rails.application.routes.draw do
 
   get 'artists/update'
 
+=======
+  get 'artists/new'
+
+  get 'artists/create'
+
+  get 'artists/edit'
+
+  get 'artists/update'
+
+>>>>>>> db49a0f39f3fd2dbbd64d814fe3a2f0833337c97
   get 'artists/show'
 
   get 'artists/index'

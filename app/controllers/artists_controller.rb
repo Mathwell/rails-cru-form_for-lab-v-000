@@ -1,5 +1,6 @@
 class ArtistsController < ApplicationController
   def new
+<<<<<<< HEAD
     @artist=Artist.new
   end
 
@@ -33,4 +34,22 @@ class ArtistsController < ApplicationController
  def artist_params
 	 params.require(:artist).permit(:name, :bio)
  end
+=======
+  end
+
+  def create
+  end
+
+  def edit
+  end
+
+  def update
+  end
+
+  def show
+  end
+
+  def index
+  end
+>>>>>>> db49a0f39f3fd2dbbd64d814fe3a2f0833337c97
 end
